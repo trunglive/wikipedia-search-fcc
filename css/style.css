@@ -7,6 +7,12 @@ body {
   background-color: #EEEEEE;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .title {
   margin: 20px;
   font-size: 40px;
@@ -24,12 +30,6 @@ body {
   background-color: #fff;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
 .wiki-search__input {
   width: 40%;
   padding: 10px;
@@ -38,7 +38,7 @@ body {
   font-weight: 300;
   text-align: center;
   border: 3px solid #393E46;
-  transition: .5s ease-out;
+  transition: .3s ease-out;
 }
 
 .wiki-search__input:focus::placeholder {
@@ -55,7 +55,6 @@ body {
   padding: 0;
   margin: 100px auto;
   list-style-type: none;
-  font-size: 16px;
   letter-spacing: .3px;
 }
 
@@ -70,6 +69,17 @@ body {
   font-size: 17px;
   box-shadow: 0px 10px 40px -7px rgba(57, 62, 70, .15);
   background-color: white;
+  transition: .1s ease-out;
+}
+
+.result-list__error {
+  margin-top: -90px;
+  text-align: center;
+  color: #393E46;
+}
+
+.result-list__article:hover {
+  border: 3px solid #00ADB5;
 }
 
 .result-list__article p {
@@ -77,13 +87,7 @@ body {
   padding-bottom: 5px;
 }
 
-ul li {
-  transition: .1s ease-out;
-}
 
-ul li:hover {
-  border: 3px solid #00ADB5;
-}
 
 
 
