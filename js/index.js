@@ -7,7 +7,7 @@ const main = () => {
     const url = `https://en.wikipedia.org/w/api.php?action=query&srsearch=${input}&list=search&format=json`;
     
     $.ajax({
-      type: 'GET',
+      method: 'GET',
       url: url,
       dataType: 'jsonp'
     })

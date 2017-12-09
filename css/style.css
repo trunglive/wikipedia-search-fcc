@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Playfair Display', serif;
-  background-color: #EEEEEE;
+  background-color: #eee;
 }
 
 .container {
@@ -68,7 +68,7 @@ body {
   padding: 20px;
   font-size: 17px;
   box-shadow: 0px 10px 40px -7px rgba(57, 62, 70, .15);
-  background-color: white;
+  background-color: #fff;
   transition: .1s ease-out;
 }
 
