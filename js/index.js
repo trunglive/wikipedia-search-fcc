@@ -1,6 +1,7 @@
 const main = () => {
   $('.wiki-search').on('submit', event => {
     event.preventDefault();
+    
     $('.result-list').empty();
 
     const input = $('.wiki-search__input').val();
