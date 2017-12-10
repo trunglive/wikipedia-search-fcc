@@ -4,18 +4,21 @@
 
 body {
   font-family: 'Playfair Display', serif;
+  font-size: 62.5%;
   background-color: #eee;
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  height: 50vh;
   text-align: center;
 }
 
 .title {
-  margin: 20px;
-  font-size: 40px;
+  margin: 1.25rem;
+  font-size: 2.5rem;
   color: #222831;
   text-decoration: none;
 }
@@ -32,9 +35,9 @@ body {
 
 .wiki-search__input {
   width: 40%;
-  padding: 10px;
+  padding: .625rem;
   font-family: 'Playfair Display', serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 300;
   text-align: center;
   border: 3px solid #393E46;
@@ -53,7 +56,7 @@ body {
 .result-list {
   width: 70vw;
   padding: 0;
-  margin: 100px auto;
+  margin: 6.25rem auto;
   list-style-type: none;
   letter-spacing: .3px;
 }
@@ -64,9 +67,9 @@ body {
 }
 
 .result-list__article {
-  margin: 50px;
-  padding: 20px;
-  font-size: 17px;
+  margin: 3.2rem;
+  padding: 1.25rem;
+  font-size: 1.07rem;
   box-shadow: 0px 10px 40px -7px rgba(57, 62, 70, .15);
   background-color: #fff;
   border: 3px solid #fff;
@@ -78,7 +81,7 @@ body {
 }
 
 .result-list__error {
-  margin-top: -90px;
+  margin-top: -5.6rem;
   text-align: center;
   color: #393E46;
 }
